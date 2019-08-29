@@ -15,6 +15,7 @@ public class Ordered {
 		boolean anish = x > y && y > z;
 		boolean dahlia = x < y && y < z;
 		System.out.println(anish + " and " + dahlia);
+        System.out.println(anish || dahlia); // && and || or
 	}
 
 }
